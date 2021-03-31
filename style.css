@@ -10,8 +10,8 @@ body{
 .loginbox{
     width: 320px;
     height: 420px;
-    background: #000;
-    color: #fff;
+    background: rgb(165, 0, 52);
+    color: rgb(0, 0, 0);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -21,19 +21,19 @@ body{
 }
 
 .avatar{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
+    top: 50px;
+    left: calc(50% - 75px);
 }
 
 h1{
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 40px;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .loginbox p{
@@ -62,15 +62,15 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: #fb2525;
-    color: #fff;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     border-radius: 20px;
 }
 .loginbox input[type="submit"]:hover
 {
     cursor: pointer;
-    background: #ffc107;
+    background: #696666;
     color: #000;
 }
 .loginbox a{
@@ -82,5 +82,5 @@ h1{
 
 .loginbox a:hover
 {
-    color: #ffc107;
+    color: #b61a1a;
 }
